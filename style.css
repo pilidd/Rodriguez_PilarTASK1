@@ -1,0 +1,97 @@
+body {
+  margin: 20px 0px;
+  padding: 0 150px;
+}
+
+.title {
+  font-size: 55px;
+  margin: 0;
+  font-style: italic;
+}
+
+header {
+  height: 250px;
+  background-image: url("design1_image1.jpg");
+  background-position-y: -270px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #e67777;
+}
+
+.nav {
+  position: relative;
+  left: 1250px;
+  bottom: 16px;
+  width: fit-content;
+}
+
+.anchor-boton {    
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid black;
+  width: 95px;
+  height: 30px;
+  font-size: 22px;
+  background-color: #597fcf;
+  text-align: center;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 600;
+  box-shadow: 3px 3px #7c7c7cb8;
+}
+
+.active{
+    background-color: green;
+}
+
+.subtitle{
+    font-size: 35px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.logo-img{
+    position: relative;
+    bottom: 120px;
+    margin-right: 70px;
+}
+
+.div-container{
+    display:inline-block;
+}
+
+.h4-info{ 
+    font-size: 26px;
+    margin-bottom: 0;
+    font-family: 'Comic Neue', cursive;
+    font-style: italic;
+}   
+
+.text-info{
+    font-size: 20px;
+    margin-top: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+.div-container-about{
+    position: relative;
+    left: 161px;
+    bottom: 100px;
+}
+
+.logo-img-about{
+    position: relative;
+    top: 44px;  
+}
+
+.div-container-contact{
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    top: 3px;
+}
