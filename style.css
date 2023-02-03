@@ -1,97 +1,212 @@
 body {
-  margin: 20px 0px;
-  padding: 0 150px;
+  margin: 0px 0px;
+  padding: 0 0px;
+  background: #cdcaca;
+}
+
+.div-title {
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  height: 204px;
+  align-items: center;
+  position: relative;
+  top: 160px;
 }
 
 .title {
-  font-size: 55px;
+  font-size: 5rem;
+  color: #ffffff;
   margin: 0;
-  font-style: italic;
+  text-align: center;
 }
 
 header {
-  height: 250px;
+  height: 600px;
   background-image: url("design1_image1.jpg");
-  background-position-y: -270px;
+  background-position-y: -200px;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #e67777;
 }
 
 .nav {
-  position: relative;
-  left: 1250px;
-  bottom: 16px;
-  width: fit-content;
+  height: 46px;
+  background: #545454;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  position: sticky;
+  top: 0px;
 }
 
-.anchor-boton {    
-  display: inline-block;
-  margin-right: 10px;
-  text-decoration: none;
+.anchor-boton {
   color: white;
-  border: 2px solid black;
-  width: 95px;
-  height: 30px;
-  font-size: 22px;
-  background-color: #597fcf;
+  font-size: 1.5rem;
+
+  width: 130px;
   text-align: center;
-  font-family: 'Comic Neue', cursive;
-  font-weight: 600;
-  box-shadow: 3px 3px #7c7c7cb8;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-decoration: none;
 }
 
-.active{
-    background-color: green;
+.anchor-boton:hover {
+  transform: scale(1.2);
 }
 
-.subtitle{
-    font-size: 35px;
-    font-family: 'Comic Neue', cursive;
-    font-weight: bold;
-    margin: 0;
-    border: 1px solid black;
-    text-align: center;
-
+.active {
+  border: 2px solid white;
+  border-radius: 50px;
 }
 
-.logo-img{
-    position: relative;
-    bottom: 120px;
-    margin-right: 70px;
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
 }
 
-.div-container{
-    display:inline-block;
+.main-container {
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 40px;
+  width: fit-content;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 100px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.img-h2-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.h4-info{ 
-    font-size: 26px;
-    margin-bottom: 0;
-    font-family: 'Comic Neue', cursive;
-    font-style: italic;
-}   
-
-.text-info{
-    font-size: 20px;
-    margin-top: 0;
-    font-family: 'Comic Neue', cursive;
+.subtitle {
+  font-family: fantasy;
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 3px;
 }
 
-.div-container-about{
-    position: relative;
-    left: 161px;
-    bottom: 100px;
+.div-container {
+  display: inline-block;
 }
 
-.logo-img-about{
-    position: relative;
-    top: 44px;  
+.h4-info {
+  font-size: 1.3rem;
+  font-family: sans-serif;
 }
 
-.div-container-contact{
-    display: inline-block;
-    position: relative;
-    left: 60px;
-    top: 3px;
+.text-info {
+  font-size: 1.3rem;
+}
+
+.div-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-container-about {
+  background-color: rgb(243 243 243 / 30%);
+  box-shadow: 0 8px 8px 0 rgb(31 38 135 / 37%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 0 50px;
+}
+
+.div-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-container-contact {
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 40px;
+  width: fit-content;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 100px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.main-rules {
+  display: block;
+  margin: 0 50px;
+}
+
+.li-item {
+  font-weight: 900;
+}
+
+p {
+  font-weight: normal;
+}
+
+.ol-li-item {
+  list-style-type: lower-latin;
+  font-weight: normal;
+}
+
+.ur-list {
+  list-style-type: circle;
+}
+
+.div-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-info-under {
+  margin: 0 0 20px 0;
+}
+
+.div-table {
+  display: flex;
+  justify-content: center;
+}
+
+td {
+  height: 60px;
+  width: 300px;
+  text-align: center;
+}
+
+.tr-titles {
+  background: darkgoldenrod;
+  height: 68px;
+  font-size: 1.5rem;
+}
+
+.celda1,
+.celda3,
+.celda5 {
+  background-color: aliceblue;
+}
+.celda2,
+.celda4 {
+  background-color: #f3c197;
+}
+
+.text-info-1 {
+  display: inline-block;
+}
+
+.info-contact {
+  display: flex;
+  justify-content: space-evenly;
 }
