@@ -23,17 +23,17 @@ body {
   text-transform: uppercase;
 }
 
-h2, p{
+h2, p, h4{
   font-family: 'Hind Madurai', sans-serif;
 }
 
 header {
   height: 600px;
-  background-image: url("design1_image1.jpg");
+  background-image: url("../assets/design1_image1.jpg");
   background-position-y: -200px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #e67777;
+  background-color: #000000;
 }
 
 .nav {
@@ -45,6 +45,7 @@ header {
   gap: 150px;
   position: sticky;
   top: 0px;
+  z-index: 1;
 }
 
 .anchor-boton {
@@ -97,22 +98,19 @@ main {
   text-transform: uppercase;
   font-size: 2rem;
   letter-spacing: 3px;
+  color: #d5d1d1; 
 }
 
 .div-container {
   display: inline-block;
 }
 
-.h4-info {
-  font-size: 1.3rem;
-  
-}
-
-.text-info {
+.h4-info, .text-info {
   font-size: 1.3rem;
 }
 
-.div-about {
+
+.section-about {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -123,7 +121,7 @@ main {
   padding: 0 50px;
 }
 
-.div-contact {
+.section-contact{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -149,7 +147,7 @@ main {
 
 .main-rules {
   display: block;
-  margin: 0 50px;
+  margin: 50px 50px;
 }
 
 .li-item {
@@ -169,7 +167,7 @@ p {
   list-style-type: circle;
 }
 
-.div-info {
+.section-info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -177,6 +175,7 @@ p {
 
 .text-info-under {
   margin: 0 0 20px 0;
+  color: #d5d1d1; 
 }
 
 .div-table {
@@ -226,3 +225,14 @@ td {
 h2 a{
   color: #d5d1d1;
 }
+
+footer{
+  background-color: #46464694;
+  height: 69px;
+  text-align: center; 
+  color: #a19f9f;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+ 
